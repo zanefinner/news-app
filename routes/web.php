@@ -12,8 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+#Basic
 Route::get('/', function () {
     return view('welcome');
 });
+#Owner
+Route::get('owner/add-admin', 'Owner@add_admin');
+#Admin
 Route::get('admin/post-new', 'Admin@post_new');
