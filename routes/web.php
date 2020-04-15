@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('owner/add-admin', 'Owner@add_admin');
 #Admin
 Route::get('admin/post-new', 'Admin@post_new');
+Route::post('article/upload', 'Article@create');

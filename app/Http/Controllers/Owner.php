@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class Owner extends Controller
 {
     public function add_admin(){
-        'Add admins here';
+        return view('owner.add_admin');
     }
 }
