@@ -1,1 +1,1 @@
-Post new article here
+@include('forms.upload_article')
