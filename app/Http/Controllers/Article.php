@@ -13,4 +13,8 @@ class Article extends Controller
         return "You searched for ".$req->q;
         //search db for articles
     }
+    public function present($id){
+        $data = "id is ".$id;
+        return view('article', ['data'=>$data]);
+    }
 }

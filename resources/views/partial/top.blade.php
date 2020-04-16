@@ -12,7 +12,7 @@
     <link rel="stylesheet"href="{{ asset('common.css') }}">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light"style="background-color: rgb(245,245,245)">
         <div class="container">
             <a class="navbar-brand" href="/">News App</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,6 +23,18 @@
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Welcome Page</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Political</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Science</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Covid-19</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

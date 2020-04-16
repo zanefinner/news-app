@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/search', 'Article@search');
+##Articles
+Route::get('article/{id}', 'Article@present');
+Route::get('search', 'Article@search');
 #Owner
 Route::get('owner/add-admin', 'Owner@add_admin');
 Route::post('owner/add-admin', 'Owner@admin_create');
