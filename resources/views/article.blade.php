@@ -6,9 +6,9 @@
                 <h3 class="text-muted">{{ $data['author']  }}</h3>
                 <img class="thumbnail" src="{{ asset($data['thumbnail']) }}">
                 <i>Image from https://google.com/</i>
-                <hr>
+
                 <p>{{ $data['content'] }}</p>
-                <hr>
+
                 <h1 class='text-muted'>More by {{ $data['author'] }}</h1>
             </div>
             <div class="col-12 col-md-4">
