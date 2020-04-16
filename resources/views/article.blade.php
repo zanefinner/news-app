@@ -2,14 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8">
-                <h1>{{$data['title']}}</h1>
-                <h3 class="text-muted">{{ $data['author']  }}</h3>
-                <img class="thumbnail" src="{{ asset($data['thumbnail']) }}">
+                <h1>{{$data->title}}</h1>
+                <h3 class="text-muted">{{ $data->author }}</h3>
+                <img class="thumbnail" src="{{ asset($data->thumbnail) }}">
                 <i>Image from https://google.com/</i>
 
-                <p>{{ $data['content'] }}</p>
+                <p>{{ $data->content }}</p>
 
-                <h1 class='text-muted'>More by {{ $data['author'] }}</h1>
+                <h1 class='text-muted'>More by {{ $data->author }}</h1>
             </div>
             <div class="col-12 col-md-4">
                 <h1>Related Articles</h1>
