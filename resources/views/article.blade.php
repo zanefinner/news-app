@@ -9,7 +9,7 @@
 
                 <p>{{ $data->content }}</p>
 
-                <h1 class='text-muted'>More by {{ $data->author }}</h1>
+                <h2 class='text-muted'>More by {{ $data->author }}</h2>
             </div>
             <div class="col-12 col-md-4">
                 <h1>Related Articles</h1>

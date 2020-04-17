@@ -22,7 +22,7 @@ class Article extends Controller
             return view('article', ['data'=>$data]);
         }else
         {//Article does not exist!
-            return 'article does not exist';
+            return view('error', ['err'=>'Article Does Not Exist']);
         }
     }
 }
