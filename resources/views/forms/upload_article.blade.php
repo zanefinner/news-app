@@ -12,5 +12,9 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Check me out</label>
     </div>
+    <hr>
+    <div class="form-group">
+        <textarea style="width:100%;"name="content" placeholder="Copy and Paste Content Here!"></textarea>
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>

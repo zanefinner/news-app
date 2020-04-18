@@ -24,4 +24,4 @@ Route::get('owner/add-admin', 'Owner@add_admin');
 Route::post('owner/add-admin', 'Owner@admin_create');
 #Admin
 Route::get('admin/post-new', 'Admin@post_new');
-Route::post('article/upload', 'Article@create');
+Route::post('admin/post-new', 'Article@create');
